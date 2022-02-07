@@ -20,3 +20,4 @@ Most restaurants in the dataset received an 'A' rating, which means that their c
 If we zoom into just 2021, there seems to be a steep drop-off on 14 points, at the cutoff from A to B. Even though most grades fall under the 'A' category, it doesn't seem like the inspections were violation-free.
 
 # *Furhter analysis*
+There are around 571 entries with a 'P' grade so I wanted to explore what that meant. Turns out, it implies that the restaurant is appealing their grade and a hearing is pending. This gives us an opportunity to directly analyze the impact of the hearings by computating what the grade turned into from 'Z'. The 'KEY' variable we used before allows us to see each restaurant's multiple ratings. What impact do the hearings have on a restaurant’s grade? What percentage of restaurants obtain A’s through the OATH hearing adjudication pathway?
