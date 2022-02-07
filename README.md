@@ -7,3 +7,9 @@ Nobody quite understands the grading breakdown so I looked at the raw data and [
 
 # *Look at 'Grades-Rest-DOH.ipynb' for my code.*
 
+I started by removing the spaces in the column names and converting 'GRADE_DATE' and 'RECORD_DATE' to datetime. 
+
+It looks like one row represents one inspection, not one rating, so I made a KEY that could be used to get an average rating for restaurants with multiple inspections. I joint based on 'DBA', 'BUILDING', "STREET", "ZIPCODE". 
+
+We can now see that there are around 180,000 entries but only 25,000 unique restaurants in the dataset.
+
