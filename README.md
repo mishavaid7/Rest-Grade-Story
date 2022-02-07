@@ -13,3 +13,10 @@ It looks like one row represents one inspection, not one rating, so I made a KEY
 
 We can now see that there are around 180,000 entries but only 25,000 unique restaurants in the dataset.
 
+# *What did I find?*
+87% of Restaurant Inspections in NYC resulted in an 'A' grade
+Most restaurants in the dataset received an 'A' rating, which means that their cumulative raw score was less than 13.
+
+If we zoom into just 2021, there seems to be a steep drop-off on 14 points, at the cutoff from A to B. Even though most grades fall under the 'A' category, it doesn't seem like the inspections were violation-free.
+
+# *Furhter analysis*
