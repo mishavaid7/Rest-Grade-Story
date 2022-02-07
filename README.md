@@ -5,4 +5,5 @@ Every restaurant window in New York City has a health inspection grade that they
 
 Nobody quite understands the grading breakdown so I looked at the raw data and [documentation](https://www.opendatanetwork.com/dataset/data.cityofnewyork.us/43nn-pn8j) that the Department of Health provides us with.
 
-mm
+# *Look at 'Grades-Rest-DOH.ipynb' for my code.*
+
